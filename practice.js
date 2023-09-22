@@ -48,3 +48,19 @@ var devisor = 5;
 var quotient = devidend / devisor;
 var remainder = devidend % devisor;
 console.log(remainder);
+
+
+var numbers = [12, 20, 30, 50];
+console.log(numbers);
+
+numbers.push(40);
+console.log(numbers);
+
+numbers.pop();
+console.log(numbers);
+
+numbers.unshift(60);
+console.log(numbers);
+
+numbers.shift();
+console.log(numbers);
