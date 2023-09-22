@@ -67,3 +67,34 @@ console.log(numbers);
 
 numbers.shift();
 console.log(numbers);
+
+
+// Conditions
+
+var goal = "I have chance to be a great Web Developer";
+var learning = true ;
+var effort = true;
+
+if (learning === true && effort === true) {
+    console.log(goal);
+}
+else{
+    console.log("I have to give more effort");
+}
+
+
+var mySalary = 1000;
+var rent = 300;
+var food = 250;
+var personalCoast = 50;
+
+var totalCoast = rent + food + personalCoast;
+var remain = mySalary - totalCoast;
+
+if(remain >= 500){
+    console.log('I will send money to home 500');
+
+}
+else{
+    console.log('I cannot send money to home more than 400')
+}
