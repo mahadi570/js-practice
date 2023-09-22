@@ -50,6 +50,9 @@ var remainder = devidend % devisor;
 console.log(remainder);
 
 
+// Learning Add / Remove element from Array
+
+
 var numbers = [12, 20, 30, 50];
 console.log(numbers);
 
