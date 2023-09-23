@@ -98,3 +98,32 @@ if(remain >= 500){
 else{
     console.log('I cannot send money to home more than 400')
 }
+
+// Exploring More
+
+var alia = 95;
+var dalia = 66;
+var salia = 80;
+var malia = 59;
+var lilia = 47;
+var jalaia = 77;
+
+if (alia >= 90){
+    console.log("Got A+ Grade")
+}
+else if(alia >= 80 && alia <90){
+    console.log("Got A grade")
+}
+else if(alia >= 70 && alia <80){
+    console.log("Got B grade")
+}
+else if(alia >= 60 && alia <70){
+    console.log("Got C grade")
+}
+else if(alia >= 50 && alia <60){
+    console.log("Got D grade")
+}
+else{
+    console.log("Got F grade")
+}
+
