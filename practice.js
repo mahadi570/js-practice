@@ -142,3 +142,22 @@ fruits.pop();
 console.log(fruits);
 fruits.push('Watermelon');
 console.log(fruits);
+
+// 
+
+var firstNumber = 13;
+var secondNumber = 79;
+var thirdNumber = 45;
+
+if (firstNumber > secondNumber && firstNumber > thirdNumber){
+    console.log(firstNumber);
+}
+else if(secondNumber > firstNumber && secondNumber > thirdNumber){
+    console.log(secondNumber);
+}
+else if(thirdNumber > firstNumber && thirdNumber > secondNumber){
+    console.log(thirdNumber);
+}
+else{
+    console.log("you don't have any number")
+}
