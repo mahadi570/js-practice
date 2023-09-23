@@ -127,3 +127,18 @@ else{
     console.log("Got F grade")
 }
 
+// 
+
+var fruits = ['Apple', 'Banana', 'Orange'];
+console.log(fruits);
+
+var bananaIndexNo = fruits.indexOf('Banana');
+console.log(bananaIndexNo);
+
+fruits[bananaIndexNo] = 'Mango';
+console.log(fruits);
+
+fruits.pop();
+console.log(fruits);
+fruits.push('Watermelon');
+console.log(fruits);
