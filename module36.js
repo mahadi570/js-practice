@@ -1,6 +1,6 @@
 const students = {
-    2222:{
-        name : 'jack',
+    2222: {
+        name: 'jack',
         section: 'c',
         class: 'IX',
         address: {
@@ -10,7 +10,7 @@ const students = {
             'country': 'UK'
         }
     },
-    3333:{
+    3333: {
         name: 'harry',
         section: 'D',
         class: 'X',
@@ -23,3 +23,28 @@ const students = {
     }
 }
 // console.log(students[2222].address.city);
+
+const data2 = {
+    data: [
+        {
+            book: 1,
+            bookDetails: {
+                name: 'Habluder Adda',
+                category: 'XYZ',
+                price: '20$'
+            },
+            bookCategory: 'Basic',
+        },
+        {
+            book: 1,
+            bookDetails: {
+                name: 'Habluder Adda',
+                category: 'XYZ',
+                price: '20$'
+            },
+            bookCategory: 'Beginner',
+        }
+    ]
+}
+// console.log(data2.data[0].bookDetails.name);
+// console.log(data2.data[1].bookCategory);
