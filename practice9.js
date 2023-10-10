@@ -1,4 +1,4 @@
-function findLeapYear(years) {
+function findLeapYear(years = []) {
     const leapYears = [];
     for (i = 0; i < years.length; i++) {
         if (years[i] % 4 === 0) {
