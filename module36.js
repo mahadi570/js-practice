@@ -28,12 +28,29 @@ const students = {
 
 const oddNumbers = [1, 3, 5, 7, 9];
 const evenNumbers = [];
-// for (let i = 0; i < oddNumbers.length; i++) {
-//     const element = oddNumbers[i] + 1;
-//     evenNumbers.push(element);
-//     }
+for (let i = 0; i < oddNumbers.length; i++) {
+    const element = oddNumbers[i] + 1;
+    // evenNumbers.push(element);
+}
 //     console.log(evenNumbers);
 
-// const even = oddNumbers.map(n => n + 10);
+const even = oddNumbers.map(n => n + 10);
 // evenNumbers.push(...even);
 // console.log(evenNumbers);
+
+const arr = [33, 50, 79, 78, 90, 101, 30];
+const divisabelByTen = arr.filter(e => e % 10 === 0);
+// console.log(divisabelByTen);
+
+const find = arr.find(e => e % 10 === 0);
+// console.log(find);
+
+const instructor = [
+    { name: 'nodi', age: 28, position: 'senior' },
+    { name: 'akhil', age: 26, position: 'junior' },
+    { name: 'shoubuj', age: 30, position: 'senior' },
+];
+
+const senior = instructor.filter(i => i.position === 'senior'); 
+// const senior = instructor.filter(i => console.log(i));
+// console.log(senior);
