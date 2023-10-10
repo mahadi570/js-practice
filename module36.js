@@ -23,28 +23,17 @@ const students = {
     }
 }
 // console.log(students[2222].address.city);
-
-const data2 = {
-    data: [
-        {
-            book: 1,
-            bookDetails: {
-                name: 'Habluder Adda',
-                category: 'XYZ',
-                price: '20$'
-            },
-            bookCategory: 'Basic',
-        },
-        {
-            book: 1,
-            bookDetails: {
-                name: 'Habluder Adda',
-                category: 'XYZ',
-                price: '20$'
-            },
-            bookCategory: 'Beginner',
-        }
-    ]
-}
 // console.log(data2.data[0].bookDetails.name);
 // console.log(data2.data[1].bookCategory);
+
+const oddNumbers = [1, 3, 5, 7, 9];
+const evenNumbers = [];
+// for (let i = 0; i < oddNumbers.length; i++) {
+//     const element = oddNumbers[i] + 1;
+//     evenNumbers.push(element);
+//     }
+//     console.log(evenNumbers);
+
+// const even = oddNumbers.map(n => n + 10);
+// evenNumbers.push(...even);
+// console.log(evenNumbers);
