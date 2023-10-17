@@ -26,3 +26,10 @@ for (let i = 1; i <= 10; i++) {
     }
     // console.log(final);
 }
+
+// 3. Create a length converter function
+// Kilometer to Mile function
+
+const kilometerToMile = (kilometer) => parseFloat((kilometer / 1.609344).toFixed(5)) ;  // 1.609344 kilometer = 1 mile
+   
+// console.log(kilometerToMile(5));
