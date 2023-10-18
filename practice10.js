@@ -30,6 +30,24 @@ for (let i = 1; i <= 10; i++) {
 // 3. Create a length converter function
 // Kilometer to Mile function
 
-const kilometerToMile = (kilometer) => parseFloat((kilometer / 1.609344).toFixed(5)) ;  // 1.609344 kilometer = 1 mile
-   
-// console.log(kilometerToMile(5));
+const kilometerToMile = (kilometer) => parseFloat((kilometer / 1.609344).toFixed(5));  // 1.609344 kilometer = 1 mile
+
+// console.log(kilometerToMile(4));
+
+
+// 4. Calculate the sum of numbers within an array
+
+const mixedNumbersArray = [3, -1, 7, -4, 2, -8, 5, 6];
+
+const mixedIntegersAndDecimalsArray = [1, 2.5, -3, 4.75, -2, 6, -7.5, 8];
+
+const sumOfArray = arr => {
+    let sum = 0;
+    for (const num of arr) {
+        console.log(num,`\t+`, sum, `\t=`, sum += num);
+    }
+    return sum
+};
+
+// console.log(sumOfArray(mixedIntegersAndDecimalsArray));
+// console.log(sumOfArray(mixedNumbersArray));
