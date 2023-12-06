@@ -51,3 +51,9 @@ const sumOfArray = arr => {
 
 // console.log(sumOfArray(mixedIntegersAndDecimalsArray));
 // console.log(sumOfArray(mixedNumbersArray));
+
+
+// 5. Create a function that reverses an array
+
+const reverseArray = arr => Array.isArray(arr) ? arr.reverse() : 'give me an array';
+console.log(reverseArray(1,2,3,4,5));
